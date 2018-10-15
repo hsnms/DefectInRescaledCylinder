@@ -1,0 +1,300 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10411,        290]
+NotebookOptionsPosition[     10078,        273]
+NotebookOutlinePosition[     10437,        289]
+CellTagsIndexPosition[     10394,        286]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "21.222079"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.062500", ",", "21.211150"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.062500", ",", "21.211150"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.093750", ",", "21.225977"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"{", 
+      RowBox[{"0.125000", ",", "21.238242"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.156250", ",", "21.238450"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.187500", ",", "21.219517"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.218750", ",", "21.176409"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"{", 
+      RowBox[{"0.250000", ",", "21.105566"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.281250", ",", "21.004476"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.312500", ",", "20.871372"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.343750", ",", "20.705023"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"{", 
+      RowBox[{"0.375000", ",", "20.504594"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.406250", ",", "20.269555"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.437500", ",", "19.999644"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.468750", ",", "19.694859"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"{", 
+      RowBox[{"0.500000", ",", "19.355498"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.531250", ",", "18.982238"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.562500", ",", "18.576273"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.593750", ",", "18.139532"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"{", 
+      RowBox[{"0.625000", ",", "17.675018"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.656250", ",", "17.187310"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.687500", ",", "16.683320"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.718750", ",", "16.173424"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"{", 
+      RowBox[{"0.750000", ",", "15.673163"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.781250", ",", "15.205839"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.812500", ",", "14.806591"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.843750", ",", "14.529246"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"{", 
+      RowBox[{"0.875000", ",", "14.459511"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.906250", ",", "14.748414"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0.937500", ",", "15.754947"}], "}"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", "a", "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"PointSize", "[", "0.03", "]"}]}], ",", " ", 
+   RowBox[{"Frame", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"True", ",", " ", "True", ",", " ", "False", ",", " ", "False"}],
+      "}"}]}], ",", " ", 
+   RowBox[{"FrameTicks", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"10", ",", "15", ",", "20", ",", "25"}], "}"}], ",", 
+        "None"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+         "0", ",", "0.2", ",", "0.4", ",", "0.6", ",", "0.8", ",", "1"}], 
+         "}"}], ",", "None"}], "}"}]}], "}"}]}], ",", " ", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"10", ",", "25"}], "}"}]}], "}"}]}], ",", 
+   RowBox[{"FrameLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<\!\(\*SubscriptBox[\(F\), \(d\)]\)/\[Pi]KH\>\"", ",", " ", 
+        "None"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Scaled Radius of the Ring Defect 2R/D\>\"", ",", " ", "None"}], 
+       "}"}]}], "}"}]}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"PointSize", "[", "0.01", "]"}]}], ",", 
+   RowBox[{"Epilog", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<Hyperbolic Type\>\"", ",", 
+          RowBox[{"Directive", "[", 
+           RowBox[{"Black", ",", "36"}], "]"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0.8", ",", "23"}], "}"}]}], "]"}], ",", 
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<D/H=4.0\>\"", ",", 
+          RowBox[{"Directive", "[", 
+           RowBox[{"Black", ",", "36"}], "]"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0.8", ",", "21"}], "}"}]}], "]"}], ",", 
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{
+         "\"\<\!\(\*SubscriptBox[\(K\), \(11\)]\)=\!\(\*SubscriptBox[\(K\), \
+\(33\)]\)=K\>\"", ",", 
+          RowBox[{"Directive", "[", 
+           RowBox[{"Black", ",", "36"}], "]"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0.8", ",", "19"}], "}"}]}], "]"}]}], "}"}]}], ",", 
+   RowBox[{"FrameTicksStyle", "\[Rule]", 
+    RowBox[{"Directive", "[", 
+     RowBox[{"Black", ",", "36"}], "]"}]}], ",", 
+   RowBox[{"FrameStyle", "\[Rule]", 
+    RowBox[{"Thickness", "[", "0.005", "]"}]}], ",", 
+   RowBox[{"LabelStyle", "->", 
+    RowBox[{"Directive", "[", 
+     RowBox[{"Black", ",", "36"}], "]"}]}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7414420688487463`*^9, 3.7414421483668528`*^9}, 
+   3.7414422223328333`*^9, {3.741442285648369*^9, 3.74144231328351*^9}, {
+   3.7414423855778112`*^9, 3.741442462916003*^9}, {3.741442496336231*^9, 
+   3.741442524152793*^9}, {3.741442606434478*^9, 3.741442627789219*^9}, {
+   3.741442751983856*^9, 3.7414427819686613`*^9}, {3.741442831109302*^9, 
+   3.741442865324843*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.03], 
+     AbsoluteThickness[1.6], PointBox[CompressedData["
+1:eJxTTMoPSmViYGCQB2IQDQP3FKK0b1mYOkB4G+yf92i85TXDxd9h/2HphwU3
+LWH8A/ZzOupy/9rA+EfsDXar83Pbwvgn7BtfybsYwc0/Yx+246mypi6Mf8H+
+7MSp8WzSMP4l+7dzL4apMsL4V+zzljnZCN03gfKv2be+VU+u2QLj37BnPNQu
+pNsI49+y16ws7WN0hfHv2Dcv8V/94r8xlH/P/lxIh/ujjTD+A3vZ07tfMUbD
++A/tCx+LfS7+bQTlP7KPmThjQdtkGP+x/fV9DXE7lGH8J/ZSZqd+nV1jCOU/
+td9pFtLzWR/Gf2b/dLMN/7t1BlD+c/vc8BfNqTow/gt79YPSl1ZE6EP5L+0n
+Vu/alZypB+W/sv9Yd6fu5xxdKP+1/QPh1yE/+WD8N/ZffGexub7WgfLf2m/a
+s1rOoB4m/87ePPdYZkeTvgMAQS6NLA==
+      "]]}, {}}, {}, {}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 10.075},
+  DisplayFunction->Identity,
+  Epilog->{
+    InsetBox[
+     FormBox[
+      StyleBox["\"Hyperbolic Type\"", 
+       Directive[
+        GrayLevel[0], 36], StripOnInput -> False], TraditionalForm], {
+     0.8, 23}], 
+    InsetBox[
+     FormBox[
+      StyleBox["\"D/H=4.0\"", 
+       Directive[
+        GrayLevel[0], 36], StripOnInput -> False], TraditionalForm], {
+     0.8, 21}], 
+    InsetBox[
+     FormBox[
+      StyleBox[
+      "\"\\!\\(\\*SubscriptBox[\\(K\\), \
+\\(11\\)]\\)=\\!\\(\\*SubscriptBox[\\(K\\), \\(33\\)]\\)=K\"", 
+       Directive[
+        GrayLevel[0], 36], StripOnInput -> False], TraditionalForm], {
+     0.8, 19}]},
+  Frame->{{True, False}, {True, False}},
+  FrameLabel->{{
+     FormBox[
+     "\"\\!\\(\\*SubscriptBox[\\(F\\), \\(d\\)]\\)/\[Pi]KH\"", 
+      TraditionalForm], None}, {
+     FormBox["\"Scaled Radius of the Ring Defect 2R/D\"", TraditionalForm], 
+     None}},
+  FrameStyle->Thickness[0.005],
+  FrameTicks->{{{{10, 
+       FormBox["10", TraditionalForm]}, {15, 
+       FormBox["15", TraditionalForm]}, {20, 
+       FormBox["20", TraditionalForm]}, {25, 
+       FormBox["25", TraditionalForm]}}, None}, {{{0, 
+       FormBox["0", TraditionalForm]}, {0.2, 
+       FormBox["0.2`", TraditionalForm]}, {0.4, 
+       FormBox["0.4`", TraditionalForm]}, {0.6, 
+       FormBox["0.6`", TraditionalForm]}, {0.8, 
+       FormBox["0.8`", TraditionalForm]}, {1, 
+       FormBox["1", TraditionalForm]}}, None}},
+  FrameTicksStyle->Directive[
+    GrayLevel[0], 36],
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  ImageSize->{875.984375, Automatic},
+  LabelStyle->Directive[
+    GrayLevel[0], 36],
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 1}, {10, 25}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0, 0}, {0, 0}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.7414420535194283`*^9, {3.741442110101313*^9, 3.741442134683608*^9}, 
+   3.7414422513386908`*^9, {3.741442289346964*^9, 3.741442317119363*^9}, {
+   3.741442395604135*^9, 3.741442465989134*^9}, {3.74144251082341*^9, 
+   3.7414425283802156`*^9}, {3.74144260920525*^9, 3.741442630306017*^9}, {
+   3.7414427579853086`*^9, 3.741442784758868*^9}, {3.7414428493417883`*^9, 
+   3.741442868331335*^9}}]
+}, Open  ]]
+},
+WindowSize->{1076, 633},
+WindowMargins->{{Automatic, 83}, {8, Automatic}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 5973, 160, 453, "Input"],
+Cell[6556, 184, 3506, 86, 609, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
